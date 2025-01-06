@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
+import { FaGooglePlay, FaAppStore } from "react-icons/fa"
 
 export function Hero() {
   return (
@@ -13,28 +14,16 @@ export function Hero() {
           Streakly helps you track daily habits, earn XP, unlock badges, and
           share your progress with friends!
         </p>
-        <div className="flex flex-col gap-4 sm:flex-row">
+        <div className="flex flex-col gap-4 sm:flex-row mt-4">
           <Button size="lg" className="relative">
-            <Image
-              src="/playstore.svg"
-              alt="Google Play"
-              width={50}
-              height={50}
-              className="mr-2"
-            />
+            <FaGooglePlay   size={30}/>
             Google Play
             <Badge variant="secondary" className="absolute -right-2 -top-2">
               Soon
             </Badge>
           </Button>
           <Button size="lg" variant="outline" className="relative">
-            <Image
-              src="/appstore.png"
-              alt="App Store"
-              width={40}
-              height={40}
-              className="mr-2"
-            />
+            <FaAppStore className="w-12 h-12 mr-2 text-blue-500" />
             App Store
             <Badge variant="secondary" className="absolute -right-2 -top-2">
               Soon

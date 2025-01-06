@@ -1,4 +1,4 @@
-import { Trophy, Share2, Bell, BarChart2, Settings, Layout, Award, Users, Smartphone, Zap } from 'lucide-react'
+import { Trophy, Share2, Bell, BarChart2, Settings, Layout, Award, Users, Zap } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const features = [
