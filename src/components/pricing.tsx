@@ -8,7 +8,7 @@ const tiers = [
     description: "Essential habit tracking features",
     price: "$0",
     features: [
-      "Unlimited habits",
+      "Track up to 2 habits",
       "Basic streak tracking",
       "Daily reminders",
       "Basic statistics",
@@ -19,16 +19,17 @@ const tiers = [
     description: "Advanced features for power users",
     price: "Coming Soon",
     features: [
-      "Everything in Free",
-      "Advanced analytics",
+      "Unlimited habits",
+      "Advanced streak tracking",
+      "Daily reminders",
+      "Detailed statistics",
+      "Streak protection (3 recoveries/month)",
+      "Share progress on social media",
       "Custom widgets",
-      "Priority support",
-      "Streak recovery",
-      "Multiple reminders",
-      "Export data",
+      "Everything in Free",
     ],
   },
-]
+];
 
 export function Pricing() {
   return (
@@ -76,4 +77,3 @@ export function Pricing() {
     </section>
   );
 }
-
