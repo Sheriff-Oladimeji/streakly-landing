@@ -44,7 +44,7 @@ const features = [
   },
   {
     title: "Premium Features",
-    description: "Unlock advanced features with Streakly Premium",
+    description: "Unlock advanced features with Streakup Premium",
     icon: Zap,
   },
 ]
@@ -79,4 +79,3 @@ export function Features() {
     </section>
   );
 }
-

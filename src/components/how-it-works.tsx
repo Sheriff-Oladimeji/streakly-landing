@@ -30,7 +30,7 @@ export function HowItWorks() {
           How It Works
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-          Get started with Streakly in three simple steps
+          Get started with streakup in three simple steps
         </p>
       </div>
       <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">

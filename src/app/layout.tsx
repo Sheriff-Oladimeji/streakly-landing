@@ -9,19 +9,19 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Streakly – Track, Improve, and Celebrate Your Habits Daily',
-  description: 'Streakly helps you track daily streaks, earn XP, unlock badges, and compete on leaderboards. Coming soon to Google Play and the App Store!',
+  title: 'Streakup – Track, Improve, and Celebrate Your Habits Daily',
+  description: 'Streakup helps you track daily streaks, earn XP, unlock badges, and compete on leaderboards. Coming soon to Google Play and the App Store!',
   openGraph: {
-    title: 'Streakly – Track, Improve, and Celebrate Your Habits Daily',
-    description: 'Track your habits, earn XP, and unlock achievements with Streakly!',
+    title: 'Streakup – Track, Improve, and Celebrate Your Habits Daily',
+    description: 'Track your habits, earn XP, and unlock achievements with Streakup!',
     type: 'website',
-    url: 'https://streakly.app',
+    url: 'https://streakup.app',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Streakly App Preview'
+        alt: 'Streakup App Preview'
       }
     ]
   }

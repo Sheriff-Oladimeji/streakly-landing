@@ -11,7 +11,7 @@ export function Hero() {
           Track, Improve, and Celebrate Your Habits Every Day
         </h1>
         <p className="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
-          Streakly helps you track daily habits, earn XP, unlock badges, and
+          Streakup helps you track daily habits, earn XP, unlock badges, and
           share your progress with friends!
         </p>
         <div className="flex flex-col gap-4 sm:flex-row mt-4">
@@ -34,7 +34,7 @@ export function Hero() {
       <div className="overflow-hidden rounded-lg border bg-background shadow-xl max-w-[600px] w-full mx-auto mt-20">
         <Image
           src="/hero.jpg"
-          alt="Streakly App Interface"
+          alt="treakup App Interface"
           width={600}
           height={320}
           className="w-full h-auto object-contain"
