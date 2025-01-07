@@ -13,6 +13,10 @@ export function Footer() {
     scrollToSection(id.replace("#", ""));
   };
 
+  const handleDownloadClick = () => {
+    scrollToSection('hero')
+  };
+
   return (
     <footer className="border-t bg-background">
       <div className="w-[90%] mx-auto flex flex-col gap-8 py-8 md:py-12">
@@ -27,7 +31,7 @@ export function Footer() {
               streakup.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
             <div>
               <h3 className="text-sm font-semibold">Product</h3>
               <ul className="mt-4 space-y-4">
@@ -103,6 +107,20 @@ export function Footer() {
                   >
                     Terms
                   </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold">Download</h3>
+              <ul className="mt-4 space-y-4">
+                <li>
+                  <Button
+                    variant="ghost"
+                    className="h-auto p-0 text-sm text-muted-foreground hover:text-foreground"
+                    onClick={handleDownloadClick}
+                  >
+                    Download App
+                  </Button>
                 </li>
               </ul>
             </div>

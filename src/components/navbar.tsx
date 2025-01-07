@@ -22,6 +22,11 @@ export function Navbar() {
     scrollToSection(id.replace('#', ''))
   }
 
+  const handleDownloadClick = () => {
+    setOpen(false)
+    scrollToSection('hero')
+  }
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="w-[90%] mx-auto flex h-16 items-center justify-between">
@@ -53,8 +58,8 @@ export function Navbar() {
           >
             Pricing
           </Link>
-          <Button variant="default" size="sm">
-            Join Waitlist
+          <Button variant="default" size="sm" onClick={handleDownloadClick}>
+            Download App
           </Button>
         </nav>
 
@@ -89,9 +94,15 @@ export function Navbar() {
               >
                 Pricing
               </Link>
-              <Button variant="default" className="mt-2" onClick={handleLinkClick}>
-                Join Waitlist
-              </Button>
+              <div className="mt-6 flex w-full">
+                <Button 
+                  variant="default" 
+                  className="w-[90%] justify-center text-base"
+                  onClick={handleDownloadClick}
+                >
+                  Download App
+                </Button>
+              </div>
             </nav>
           </SheetContent>
         </Sheet>

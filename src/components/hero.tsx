@@ -5,7 +5,7 @@ import { FaGooglePlay, FaAppStore } from "react-icons/fa"
 
 export function Hero() {
   return (
-    <section className="w-[90%] mx-auto  flex flex-col items-center justify-center gap-4 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
+    <section id="hero" className="w-[90%] mx-auto  flex flex-col items-center justify-center gap-4 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
       <div className="flex max-w-[980px] flex-col items-center gap-4 text-center">
         <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
           Track, Improve, and Celebrate Your Habits Every Day
