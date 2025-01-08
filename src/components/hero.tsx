@@ -31,7 +31,7 @@ export function Hero() {
           </Button>
         </div>
       </div>
-      <div className="overflow-hidden rounded-lg border bg-background shadow-xl max-w-[600px] w-full mx-auto mt-20">
+      {/* <div className="overflow-hidden rounded-lg border bg-background shadow-xl max-w-[600px] w-full mx-auto mt-20">
         <Image
           src="/hero.jpg"
           alt="treakup App Interface"
@@ -40,7 +40,7 @@ export function Hero() {
           className="w-full h-auto object-contain"
           priority
         />
-      </div>
+      </div> */}
     </section>
   );
 }
